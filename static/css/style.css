@@ -49,7 +49,7 @@ body, html {
   color: #303030;
   padding: 0px;
   margin: 0px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: normal;
   font-weight: 300; }
 
@@ -58,11 +58,11 @@ body {
   margin: 0; }
 
 p {
-  margin: 5px 0;
+  margin: 15px 0;
   line-height: 24px; }
 
 .section-title {
-  color: #d71149;
+  color: #000000;
   font-size: 18px;
   width: 100%;
   text-align: center;
@@ -76,8 +76,8 @@ p {
   line-height: normal !important; }
 
 [type="checkbox"].filled-in:checked + label::after {
-  border: 2px solid #d71149;
-  background-color: #d71149; }
+  border: 2px solid #000000;
+  background-color: #000000; }
 
 .search-wrapper {
   margin: 0;
@@ -121,9 +121,9 @@ body input[type="tel"]:focus:not(.browser-default):not([readonly]),
 body input[type="number"]:focus:not(.browser-default):not([readonly]),
 body input[type="search"]:focus:not(.browser-default):not([readonly]),
 body textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #d71149;
-  -webkit-box-shadow: 0 1px 0 0 #d71149;
-  box-shadow: 0 1px 0 0 #d71149; }
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: 0 1px 0 0 #000000;
+  box-shadow: 0 1px 0 0 #000000; }
 
 body input:focus:not([type]):not([readonly]) + label,
 body input[type="text"]:focus:not(.browser-default):not([readonly]) + label,
@@ -138,7 +138,7 @@ body input[type="tel"]:focus:not(.browser-default):not([readonly]) + label,
 body input[type="number"]:focus:not(.browser-default):not([readonly]) + label,
 body input[type="search"]:focus:not(.browser-default):not([readonly]) + label,
 body textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #d71149; }
+  color: #000000; }
 
 form input.validate:not([type]) + label,
 form input.validate[type="text"]:not(.browser-default) + label,
@@ -183,14 +183,14 @@ img {
   margin: 0px 6px 0px 0px;
   height: 10px;
   width: 10px;
-  border: 1px solid #d71149;
+  border: 1px solid #000000;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
   border-radius: 90px; }
 
 .owl-dots .owl-dot.active {
   width: 20px;
-  background: #d71149; }
+  background: #000000; }
 
 #page-content {
   padding: 0px 0px; }
@@ -208,7 +208,7 @@ img {
   border-radius: 90px;
   padding: 3px 10px;
   color: #ffffff;
-  background-color: #d71149;
+  background-color: #000000;
   display: inline-block;
   cursor: pointer;
   font-size: 12px;
@@ -219,7 +219,7 @@ img {
 
 body .btn,
 body .btn-large {
-  background-color: #d71149; }
+  background-color: #000000; }
 
 .theme-btn-rounded {
   -webkit-border-radius: 90px;
@@ -254,7 +254,7 @@ form .row {
 
 /*---------- PAGINATION ----------*/
 body .pagination li.active {
-  background-color: #d71149; }
+  background-color: #000000; }
 
 ul.pagination {
   margin-top: 30px;
@@ -370,7 +370,7 @@ nav .side-nav li > a > i.material-icons {
   text-align: left; }
 
 nav .side-nav {
-  background-color: #d71149;
+  background-color: #000000;
   color: #ffffff;
   height: 100%; }
 
@@ -492,7 +492,7 @@ nav .side-nav .profile h6 {
 ==================================================*/
 header {
   height: 56px;
-  background-color: #d71149;
+  background-color: #000000;
   position: fixed;
   width: 100%;
   left: 0px;
@@ -502,6 +502,13 @@ header {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.4);
   -moz-box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.4);
   box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.4); }
+
+header .header-search-menu {
+  float: right;
+  width: 400px;
+  height: 56px;
+  min-height: 1px;
+  text-align: center; }
 
 header .header-icon-menu {
   float: right;
@@ -531,7 +538,7 @@ header .header-icon-menu .fas.fa-shopping-cart {
 header .header-logo {
   text-align: center;
   line-height: normal;
-   }
+  }
 
 header .nav-logo {
   color: #ffffff;
@@ -665,7 +672,7 @@ nav a.button-collapse {
   text-align: center; }
 
 .populer-search .tag-word {
-  background-color: #d71149;
+  background-color: #000000;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
   border-radius: 90px;
@@ -689,7 +696,7 @@ nav a.button-collapse {
 
 .section.product-item .slick-prev::before,
 .section.product-item .slick-next::before {
-  color: #d71149; }
+  color: #000000; }
 
 .section.product-item .slick-prev,
 .section.product-item .slick-next {
@@ -828,11 +835,11 @@ nav a.button-collapse {
 
 .more-product-list {
   text-align: right;
-  color: #d71149; }
+  color: #000000; }
 
 /*---------- VEGETABLE ----------*/
 .vegetable-list-homepage {
-  background-color: #d71149;
+  background-color: #000000;
   padding-top: 25px;
   padding-bottom: 35px; }
 
@@ -889,7 +896,7 @@ nav a.button-collapse {
   font-weight: 600; }
 
 .cart-box .cart-item .ci-name .cin-price {
-  color: #d71149; }
+  color: #000000; }
 
 .cart-box .cart-item .ci-price {
   width: 105px;
@@ -918,7 +925,7 @@ nav a.button-collapse {
   padding: 2px 0px;
   line-height: normal;
   font-size: 14px;
-  border: 1px solid #d71149; }
+  border: 1px solid #000000; }
 
 .checkout-payable {
   margin: 20px 0px;
@@ -943,7 +950,7 @@ nav a.button-collapse {
   top: 0px; }
 
 .checkout-payable .cart-coupon-discount .cp-right {
-  color: #d71149;
+  color: #000000;
   font-style: italic;
   font-size: 12px; }
 
@@ -954,12 +961,12 @@ nav a.button-collapse {
 
 .checkout-payable .cart-total-payable .cp-right {
   font-weight: 600;
-  color: #d71149;
+  color: #000000;
   padding-top: 15px; }
 
 .checkout-payable .cart-total-payable .cp-left {
   font-weight: 600;
-  color: #d71149; }
+  color: #000000; }
 
 .button-add-cart {
   margin: 30px auto 0px;
@@ -998,7 +1005,7 @@ nav a.button-collapse {
 .shipping-checkout-page .payment-method-text .far,
 .shipping-checkout-page .payment-method-text .fal,
 .shipping-checkout-page .payment-method-text .fab {
-  color: #d71149;
+  color: #000000;
   margin-right: 5px; }
 
 .shipping-checkout-page .ck-box {
@@ -1077,7 +1084,7 @@ nav a.button-collapse {
   font-weight: 600; }
 
 .wish-item .wish-box .wi-name .win-price {
-  color: #d71149; }
+  color: #000000; }
 
 .wish-item .wish-box .wi-name .win-info {
   font-size: 12px;
@@ -1126,7 +1133,7 @@ nav a.button-collapse {
 
 .section.subscribe .mail-subscribe-box input {
   color: #303030;
-  border: 1px solid #d71149;
+  border: 1px solid #000000;
   height: 50px;
   background: #ffffff;
   border-radius: 0;
@@ -1136,9 +1143,9 @@ nav a.button-collapse {
 
 .section.subscribe .mail-subscribe-box i {
   position: absolute;
-  color: #d71149;
+  color: #000000;
   font-size: 18px;
-  border: 1px solid #d71149;
+  border: 1px solid #000000;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -1203,7 +1210,7 @@ form .file-field .file-path-wrapper .file-path {
   text-align: center; }
 
 .section.gallery .filter-button {
-  color: #d71149;
+  color: #000000;
   background: transparent;
   border: 0px solid #ffffff;
   padding: 10px 10px;
@@ -1458,8 +1465,8 @@ form .file-field .file-path-wrapper .file-path {
   cursor: pointer; }
 
 .add-wish-lish .awl-btn:hover {
-  background-color: #d71149;
-  border: 1px solid #d71149; }
+  background-color: #000000;
+  border: 1px solid #000000; }
 
 .add-wish-lish .awl-btn:hover .awl-btn-icon {
   color: #ffffff; }
@@ -1469,14 +1476,14 @@ form .file-field .file-path-wrapper .file-path {
   vertical-align: middle;
   font-size: 18px;
   text-align: center;
-  color: #d71149; }
+  color: #000000; }
 
 .product-page .name-price {
   position: relative; }
 
 .product-page .pg-product-name {
   font-size: 20px;
-  color: #d71149;
+  color: #000000;
   width: 100%;
   padding-right: 100px; }
 
@@ -1569,7 +1576,7 @@ form .file-field .file-path-wrapper .file-path {
 
 .qty-total-price .qty-qty {
   padding: 10px 5px 0px;
-  color: #d71149; }
+  color: #000000; }
 
 .qty-total-price .button-add-cart {
   margin: 0px 0px;
@@ -1586,7 +1593,7 @@ form .file-field .file-path-wrapper .file-path {
 20. FOOTER
 ==================================================*/
 footer {
-  background-color: #d71149; }
+  background-color: #000000; }
 
 footer .footer-info {
   color: #ffffff;
@@ -1615,7 +1622,7 @@ footer#footer .footer-sosmed-icon .wrap-circle-sosmed .circle-sosmed {
   border-radius: 100%;
   display: table;
   background-color: #ffffff;
-  border: 1px solid #d71149; }
+  border: 1px solid #000000; }
 
 footer#footer .footer-sosmed-icon .wrap-circle-sosmed .circle-sosmed .fa,
 footer#footer .footer-sosmed-icon .wrap-circle-sosmed .circle-sosmed .fab,
@@ -1642,4 +1649,11 @@ footer#footer .row.copyright {
 footer#footer .row.copyright span {
   font-weight: 600; }
 
- 
+ul.tomo > li {
+  list-style: square;
+  margin:  1em 0 0 1em;
+}
+
+.p-justify > p {
+  text-align: justify;
+}
